@@ -1,0 +1,2 @@
+./service-account-northwind-olap-dbt-creds.json
+./dbt_bigquery_venv

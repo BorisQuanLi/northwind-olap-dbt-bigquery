@@ -1,0 +1,99 @@
+[0m21:05:58.508626 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6d3722fd30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6d36ca2ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6d364516c0>]}
+
+
+============================== 21:05:58.527803 | 7964b0c9-de6d-42ec-911e-95c10c37279b ==============================
+[0m21:05:58.527803 [info ] [MainThread]: Running with dbt=1.8.7
+[0m21:05:58.531024 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/home/boris-ubuntu-22-04/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init follow_along_with_OLAP_Dimensional_Modeling_for_Advanced_Analytics', 'send_anonymous_usage_stats': 'True'}
+[0m21:05:58.953890 [debug] [MainThread]: Starter project path: /mnt/c/Users/Boris_Li/OneDrive/Job_search_2024/Software_Engineer_roles/Swetta-NYC-HHC-Harlem-Finance/etl-with-sql/following_OLAP_Dimensional_Modeling_for_Advanced_Analytics/dbt_bigquery_venv/lib/python3.10/site-packages/dbt/include/starter_project
+[0m21:05:59.463676 [info ] [MainThread]: 
+Your new dbt project "follow_along_with_OLAP_Dimensional_Modeling_for_Advanced_Analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:05:59.467615 [info ] [MainThread]: Setting up your profile.
+[0m21:09:36.952532 [info ] [MainThread]: Profile follow_along_with_OLAP_Dimensional_Modeling_for_Advanced_Analytics written to /home/boris-ubuntu-22-04/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:09:36.965736 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 218.55753, "process_user_time": 5.246897, "process_kernel_time": 2.537846, "process_mem_max_rss": "203196", "process_in_blocks": "138696", "process_out_blocks": "8"}
+[0m21:09:36.969257 [debug] [MainThread]: Command `dbt init` succeeded at 21:09:36.968743 after 218.56 seconds
+[0m21:09:36.974759 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6d3722fd30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6d375f00d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6d375f0250>]}
+[0m21:09:36.979104 [debug] [MainThread]: Flushing usage events
+[0m21:10:05.284735 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d27e4fd00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d281d3340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d281d3cd0>]}
+
+
+============================== 21:10:05.298081 | 7d81b93d-a4ce-4414-9412-80fc5c21f06c ==============================
+[0m21:10:05.298081 [info ] [MainThread]: Running with dbt=1.8.7
+[0m21:10:05.300078 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/boris-ubuntu-22-04/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:10:05.583667 [info ] [MainThread]: dbt version: 1.8.7
+[0m21:10:05.585423 [info ] [MainThread]: python version: 3.10.12
+[0m21:10:05.590133 [info ] [MainThread]: python path: /mnt/c/Users/Boris_Li/OneDrive/Job_search_2024/Software_Engineer_roles/Swetta-NYC-HHC-Harlem-Finance/etl-with-sql/following_OLAP_Dimensional_Modeling_for_Advanced_Analytics/dbt_bigquery_venv/bin/python3
+[0m21:10:05.592380 [info ] [MainThread]: os info: Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.35
+[0m21:10:25.640730 [info ] [MainThread]: Using profiles dir at /home/boris-ubuntu-22-04/.dbt
+[0m21:10:25.643769 [info ] [MainThread]: Using profiles.yml file at /home/boris-ubuntu-22-04/.dbt/profiles.yml
+[0m21:10:25.646230 [info ] [MainThread]: Using dbt_project.yml file at /mnt/c/Users/Boris_Li/OneDrive/Job_search_2024/Software_Engineer_roles/Swetta-NYC-HHC-Harlem-Finance/etl-with-sql/following_OLAP_Dimensional_Modeling_for_Advanced_Analytics/dbt_project.yml
+[0m21:10:25.648509 [info ] [MainThread]: adapter type: bigquery
+[0m21:10:25.650652 [info ] [MainThread]: adapter version: 1.8.3
+[0m21:10:25.653427 [info ] [MainThread]: Configuration:
+[0m21:10:25.657115 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m21:10:25.659484 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:10:25.661871 [info ] [MainThread]: Required dependencies:
+[0m21:10:25.663996 [debug] [MainThread]: Executing "git --help"
+[0m21:10:25.679110 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:10:25.681433 [debug] [MainThread]: STDERR: "b''"
+[0m21:10:25.683586 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:10:25.685576 [info ] [MainThread]: Connection:
+[0m21:10:25.689444 [info ] [MainThread]:   method: oauth
+[0m21:10:25.691791 [info ] [MainThread]:   database: northwind-olap-dbt
+[0m21:10:25.694208 [info ] [MainThread]:   execution_project: northwind-olap-dbt
+[0m21:10:25.696182 [info ] [MainThread]:   schema: northwind-olap-dbt.northwind_star_schema_olap
+[0m21:10:25.698921 [info ] [MainThread]:   location: US
+[0m21:10:25.701116 [info ] [MainThread]:   priority: interactive
+[0m21:10:25.703242 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m21:10:25.706466 [info ] [MainThread]:   impersonate_service_account: None
+[0m21:10:25.709928 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m21:10:25.712517 [info ] [MainThread]:   job_retries: 1
+[0m21:10:25.715349 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m21:10:25.717457 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m21:10:25.719437 [info ] [MainThread]:   timeout_seconds: 300
+[0m21:10:25.722807 [info ] [MainThread]:   client_id: None
+[0m21:10:25.725245 [info ] [MainThread]:   token_uri: None
+[0m21:10:25.727088 [info ] [MainThread]:   dataproc_region: None
+[0m21:10:25.729580 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m21:10:25.731610 [info ] [MainThread]:   gcs_bucket: None
+[0m21:10:25.733630 [info ] [MainThread]:   dataproc_batch: None
+[0m21:10:25.740087 [info ] [MainThread]: Registered adapter: bigquery=1.8.3
+[0m21:10:25.749954 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m21:10:25.751921 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:10:28.378030 [debug] [MainThread]: On debug: select 1 as id
+[0m21:10:29.100020 [error] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=northwind-olap-dbt&j=bq:US:6beb07ff-f80a-4a5a-8a89-d536cf16c454&page=queryresults
+[0m21:10:29.102543 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m21:10:29.105134 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m21:10:29.107270 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </mnt/c/Users/Boris_Li/OneDrive/Job_search_2024/Software_Engineer_roles/Swetta-NYC-HHC-Harlem-Finance/etl-with-sql/following_OLAP_Dimensional_Modeling_for_Advanced_Analytics/dbt_project.yml> not found
+
+[0m21:10:29.109253 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Project #923172482079 has been deleted.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m21:10:29.114918 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 23.917181, "process_user_time": 5.139508, "process_kernel_time": 2.762857, "process_mem_max_rss": "205128", "process_in_blocks": "138504", "command_success": false, "process_out_blocks": "0"}
+[0m21:10:29.117274 [debug] [MainThread]: Command `dbt debug` failed at 21:10:29.116975 after 23.92 seconds
+[0m21:10:29.118948 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m21:10:29.122275 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d27e4fd00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d0ebfc2e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d0e3d6da0>]}
+[0m21:10:29.124974 [debug] [MainThread]: Flushing usage events
