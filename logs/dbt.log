@@ -97,3 +97,23 @@ https://docs.getdbt.com/docs/configure-your-profile
 [0m21:10:29.118948 [debug] [MainThread]: Connection 'debug' was properly closed.
 [0m21:10:29.122275 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d27e4fd00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d0ebfc2e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d0e3d6da0>]}
 [0m21:10:29.124974 [debug] [MainThread]: Flushing usage events
+[0m17:25:33.431649 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc798c57c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc7986dc460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc7974ad3c0>]}
+
+
+============================== 17:25:33.457719 | 054e54ee-4a4e-47b5-b982-8a903da9e38b ==============================
+[0m17:25:33.457719 [info ] [MainThread]: Running with dbt=1.8.7
+[0m17:25:33.459567 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/boris-ubuntu-22-04/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m17:25:33.978359 [info ] [MainThread]: dbt version: 1.8.7
+[0m17:25:33.980611 [info ] [MainThread]: python version: 3.10.12
+[0m17:25:33.982021 [info ] [MainThread]: python path: /mnt/c/Users/Boris_Li/OneDrive/Job_search_2024/Software_Engineer_roles/Swetta-NYC-HHC-Harlem-Finance/etl-with-sql/following_OLAP_Dimensional_Modeling_for_Advanced_Analytics/dbt_bigquery_venv/bin/python3
+[0m17:25:33.983369 [info ] [MainThread]: os info: Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.35
+[0m17:26:07.832356 [info ] [MainThread]: Using profiles dir at /home/boris-ubuntu-22-04/.dbt
+[0m17:26:07.848208 [info ] [MainThread]: Using profiles.yml file at /home/boris-ubuntu-22-04/.dbt/profiles.yml
+[0m17:26:07.856740 [info ] [MainThread]: Using dbt_project.yml file at /mnt/c/Users/Boris_Li/OneDrive/Job_search_2024/Software_Engineer_roles/Swetta-NYC-HHC-Harlem-Finance/etl-with-sql/following_OLAP_Dimensional_Modeling_for_Advanced_Analytics/dbt_project.yml
+[0m17:26:07.859094 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m17:26:07.866501 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 34.549217, "process_user_time": 4.909044, "process_kernel_time": 2.842589, "process_mem_max_rss": "203920", "process_in_blocks": "138504", "command_success": false, "process_out_blocks": "0"}
+[0m17:26:07.869475 [debug] [MainThread]: Command `dbt debug` failed at 17:26:07.869069 after 34.55 seconds
+[0m17:26:07.886089 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc798c57c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc77f0cd150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc77f0cfdc0>]}
+[0m17:26:07.892155 [debug] [MainThread]: Flushing usage events
